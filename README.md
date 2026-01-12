@@ -32,6 +32,8 @@ DO NOT DEPLOY THIS TO PRODUCTION.
 6.  **Vulnerable Dependencies**:
     - Outdated `Flask` and `PyJWT` versions with known CVEs.
 
+#test
+
 ## Detection Coverage
 - **Bandit**: Should detect SQLi, hardcoded secrets, shell=True, debug=True.
 - **Secret Scanners**: Should detect AWS and Stripe keys.
