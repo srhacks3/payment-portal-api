@@ -32,9 +32,11 @@ DO NOT DEPLOY THIS TO PRODUCTION.
 6.  **Vulnerable Dependencies**:
     - Outdated `Flask` and `PyJWT` versions with known CVEs.
 
-
 ## Detection Coverage
 - **Bandit**: Should detect SQLi, hardcoded secrets, shell=True, debug=True.
 - **Secret Scanners**: Should detect AWS and Stripe keys.
 - **Pip-Audit**: Should flag `Flask 2.0.1` and `PyJWT 1.7.1`.
 - **LLM/RAG**: Should explain "Why is verify_signature=False dangerous?"
+
+
+#test
